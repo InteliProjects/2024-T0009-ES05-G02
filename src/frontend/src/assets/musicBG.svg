@@ -1,0 +1,81 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1397_1805" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+<rect x="0.5" y="0.5" width="99" height="99" fill="#D9D9D9" stroke="black"/>
+</mask>
+<g mask="url(#mask0_1397_1805)">
+<g clip-path="url(#clip0_1397_1805)">
+<path d="M100 -4V6.55C99.41 6.21 98.73 6 98 6C95.79 6 94 7.79 94 10C94 12.21 95.79 14 98 14C100.21 14 102 12.21 102 10V0H106V-4H100ZM98 12C96.9 12 96 11.1 96 10C96 8.9 96.9 8 98 8C99.1 8 100 8.9 100 10C100 11.1 99.1 12 98 12Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip1_1397_1805)">
+<path d="M43 -4V6.55C42.41 6.21 41.73 6 41 6C38.79 6 37 7.79 37 10C37 12.21 38.79 14 41 14C43.21 14 45 12.21 45 10V0H49V-4H43ZM41 12C39.9 12 39 11.1 39 10C39 8.9 39.9 8 41 8C42.1 8 43 8.9 43 10C43 11.1 42.1 12 41 12Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip2_1397_1805)">
+<path d="M8 87V97.55C7.41 97.21 6.73 97 6 97C3.79 97 2 98.79 2 101C2 103.21 3.79 105 6 105C8.21 105 10 103.21 10 101V91H14V87H8ZM6 103C4.9 103 4 102.1 4 101C4 99.9 4.9 99 6 99C7.1 99 8 99.9 8 101C8 102.1 7.1 103 6 103Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip3_1397_1805)">
+<path d="M59 48V58.55C58.41 58.21 57.73 58 57 58C54.79 58 53 59.79 53 62C53 64.21 54.79 66 57 66C59.21 66 61 64.21 61 62V52H65V48H59ZM57 64C55.9 64 55 63.1 55 62C55 60.9 55.9 60 57 60C58.1 60 59 60.9 59 62C59 63.1 58.1 64 57 64Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip4_1397_1805)">
+<path d="M34 33.25V41.1625C33.5575 40.9075 33.0475 40.75 32.5 40.75C30.8425 40.75 29.5 42.0925 29.5 43.75C29.5 45.4075 30.8425 46.75 32.5 46.75C34.1575 46.75 35.5 45.4075 35.5 43.75V36.25H38.5V33.25H34ZM32.5 45.25C31.675 45.25 31 44.575 31 43.75C31 42.925 31.675 42.25 32.5 42.25C33.325 42.25 34 42.925 34 43.75C34 44.575 33.325 45.25 32.5 45.25Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip5_1397_1805)">
+<path d="M14 7.25V15.1625C13.5575 14.9075 13.0475 14.75 12.5 14.75C10.8425 14.75 9.5 16.0925 9.5 17.75C9.5 19.4075 10.8425 20.75 12.5 20.75C14.1575 20.75 15.5 19.4075 15.5 17.75V10.25H18.5V7.25H14ZM12.5 19.25C11.675 19.25 11 18.575 11 17.75C11 16.925 11.675 16.25 12.5 16.25C13.325 16.25 14 16.925 14 17.75C14 18.575 13.325 19.25 12.5 19.25Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip6_1397_1805)">
+<path d="M71 10.25V18.1625C70.5575 17.9075 70.0475 17.75 69.5 17.75C67.8425 17.75 66.5 19.0925 66.5 20.75C66.5 22.4075 67.8425 23.75 69.5 23.75C71.1575 23.75 72.5 22.4075 72.5 20.75V13.25H75.5V10.25H71ZM69.5 22.25C68.675 22.25 68 21.575 68 20.75C68 19.925 68.675 19.25 69.5 19.25C70.325 19.25 71 19.925 71 20.75C71 21.575 70.325 22.25 69.5 22.25Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip7_1397_1805)">
+<path d="M95 29.25V37.1625C94.5575 36.9075 94.0475 36.75 93.5 36.75C91.8425 36.75 90.5 38.0925 90.5 39.75C90.5 41.4075 91.8425 42.75 93.5 42.75C95.1575 42.75 96.5 41.4075 96.5 39.75V32.25H99.5V29.25H95ZM93.5 41.25C92.675 41.25 92 40.575 92 39.75C92 38.925 92.675 38.25 93.5 38.25C94.325 38.25 95 38.925 95 39.75C95 40.575 94.325 41.25 93.5 41.25Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip8_1397_1805)">
+<path d="M77 86.25V94.1625C76.5575 93.9075 76.0475 93.75 75.5 93.75C73.8425 93.75 72.5 95.0925 72.5 96.75C72.5 98.4075 73.8425 99.75 75.5 99.75C77.1575 99.75 78.5 98.4075 78.5 96.75V89.25H81.5V86.25H77ZM75.5 98.25C74.675 98.25 74 97.575 74 96.75C74 95.925 74.675 95.25 75.5 95.25C76.325 95.25 77 95.925 77 96.75C77 97.575 76.325 98.25 75.5 98.25Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip9_1397_1805)">
+<path d="M40 75.25V83.1625C39.5575 82.9075 39.0475 82.75 38.5 82.75C36.8425 82.75 35.5 84.0925 35.5 85.75C35.5 87.4075 36.8425 88.75 38.5 88.75C40.1575 88.75 41.5 87.4075 41.5 85.75V78.25H44.5V75.25H40ZM38.5 87.25C37.675 87.25 37 86.575 37 85.75C37 84.925 37.675 84.25 38.5 84.25C39.325 84.25 40 84.925 40 85.75C40 86.575 39.325 87.25 38.5 87.25Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip10_1397_1805)">
+<path d="M95 58V68.55C94.41 68.21 93.73 68 93 68C90.79 68 89 69.79 89 72C89 74.21 90.79 76 93 76C95.21 76 97 74.21 97 72V62H101V58H95ZM93 74C91.9 74 91 73.1 91 72C91 70.9 91.9 70 93 70C94.1 70 95 70.9 95 72C95 73.1 94.1 74 93 74Z" fill="white" fill-opacity="0.3"/>
+</g>
+<g clip-path="url(#clip11_1397_1805)">
+<path d="M5 46V56.55C4.41 56.21 3.73 56 3 56C0.79 56 -1 57.79 -1 60C-1 62.21 0.79 64 3 64C5.21 64 7 62.21 7 60V50H11V46H5ZM3 62C1.9 62 1 61.1 1 60C1 58.9 1.9 58 3 58C4.1 58 5 58.9 5 60C5 61.1 4.1 62 3 62Z" fill="white" fill-opacity="0.3"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1397_1805">
+<rect width="24" height="24" fill="white" transform="translate(88 -7)"/>
+</clipPath>
+<clipPath id="clip1_1397_1805">
+<rect width="24" height="24" fill="white" transform="translate(31 -7)"/>
+</clipPath>
+<clipPath id="clip2_1397_1805">
+<rect width="24" height="24" fill="white" transform="translate(-4 84)"/>
+</clipPath>
+<clipPath id="clip3_1397_1805">
+<rect width="24" height="24" fill="white" transform="translate(47 45)"/>
+</clipPath>
+<clipPath id="clip4_1397_1805">
+<rect width="18" height="18" fill="white" transform="translate(25 31)"/>
+</clipPath>
+<clipPath id="clip5_1397_1805">
+<rect width="18" height="18" fill="white" transform="translate(5 5)"/>
+</clipPath>
+<clipPath id="clip6_1397_1805">
+<rect width="18" height="18" fill="white" transform="translate(62 8)"/>
+</clipPath>
+<clipPath id="clip7_1397_1805">
+<rect width="18" height="18" fill="white" transform="translate(86 27)"/>
+</clipPath>
+<clipPath id="clip8_1397_1805">
+<rect width="18" height="18" fill="white" transform="translate(68 84)"/>
+</clipPath>
+<clipPath id="clip9_1397_1805">
+<rect width="18" height="18" fill="white" transform="translate(31 73)"/>
+</clipPath>
+<clipPath id="clip10_1397_1805">
+<rect width="24" height="24" fill="white" transform="translate(83 55)"/>
+</clipPath>
+<clipPath id="clip11_1397_1805">
+<rect width="24" height="24" fill="white" transform="translate(-7 43)"/>
+</clipPath>
+</defs>
+</svg>

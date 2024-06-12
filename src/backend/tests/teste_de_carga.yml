@@ -1,0 +1,31 @@
+config:
+  target: 'http://localhost:3000' # A URL base da sua aplicação
+  phases:
+    - duration: 60
+      arrivalRate: 5 # 5 usuários por segundo para o primeiro minuto
+    - duration: 120
+      arrivalRate: 10 # Aumenta para 10 usuários por segundo no segundo minuto
+
+scenarios:
+  - name: "Adicionar professor a uma instância de classe"
+    flow:
+      - post:
+          url: "/api/professors-classes"
+          json:
+            professor_id: "1"
+            instance_classes_id: "1"
+
+  - name: "Registrar presença de um aluno"
+    flow:
+      - post:
+          url: "/api/student-presences"
+          json:
+            student_id: "2"
+            class_instance_id: "1"
+            presence: true
+
+  - name: "Remover professor de uma instância de classe"
+    flow:
+      - delete:
+          url: "/api/professors-classes/1" # Assumindo que este seja o ID do registro a ser removido
+

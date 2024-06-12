@@ -1,0 +1,1001 @@
+{
+	"info": {
+		"_postman_id": "1a347bb9-fd09-465d-aa38-c6e735a197e0",
+		"name": "AllTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26933527"
+	},
+	"item": [
+		{
+			"name": "getAllProfessors",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados de workshops\r",
+							"pm.test(\"Body should contain professors data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an('array').that.is.not.empty;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/professors",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"professors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllWorkshops",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados de workshops\r",
+							"pm.test(\"Body should contain workshops data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an('array').that.is.not.empty;\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/workshops",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"workshops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllOngs",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados de ongs\r",
+							"pm.test(\"Body should contain ngo data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an('array').that.is.not.empty;\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/ongs",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ongs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllStudents",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados de estudantes\r",
+							"pm.test(\"Body should contain students data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an('array').that.is.not.empty;\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/students",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllLeaders",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados de líderes\r",
+							"pm.test(\"Body should contain leaders data\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.be.an('array').that.is.not.empty;\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/leaders",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"leaders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getProfessorById",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 404 Not Found\r",
+							"pm.test(\"Status code is 404 when professor is not found\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém uma mensagem de erro\r",
+							"pm.test(\"Body should contain error message\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.error).to.equal(\"Professor not found.\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/professors/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"professors",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getWorkshopsById",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK quando o workshop é encontrado\r",
+							"pm.test(\"Status code is 200 when workshop is found\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados de workshop quando é encontrado\r",
+							"pm.test(\"Body should contain workshop data when found\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/workshops/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"workshops",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOngsById",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK quando a ong é encontrada\r",
+							"pm.test(\"Status code is 200 when ngo is found\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados de ong quando é encontrado\r",
+							"pm.test(\"Body should contain ong data when found\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/ongs/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ongs",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getStudentsById",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK quando o estudante é encontrado\r",
+							"pm.test(\"Status code is 200 when student is found\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados de estudante quando é encontrado\r",
+							"pm.test(\"Body should contain student data when found\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/students/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getLeadersById",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK quando o líder é encontrado\r",
+							"pm.test(\"Status code is 200 when student is found\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do líder quando é encontrado\r",
+							"pm.test(\"Body should contain leader data when found\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/leaders/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"leaders",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOngByLeaderId",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 404 Not Found quando o líder não é encontrado\r",
+							"pm.test(\"Status code is 404 when leader is not found\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"\r",
+							"// Verifica se a resposta tem status 404 Not Found quando a ONG não é encontrada para este líder\r",
+							"pm.test(\"Status code is 404 when ONG is not found for this leader\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados da ONG quando é encontrada\r",
+							"pm.test(\"Body should contain ONG data when ONG is found\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém uma mensagem de erro quando o líder não é encontrado\r",
+							"pm.test(\"Body should contain error message when leader is not found\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.error).to.equal(\"Leader not found.\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/leader/999/ong",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"leader",
+						"999",
+						"ong"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createProfessor",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 201 Created quando o professor é criado com sucesso\r",
+							"pm.test(\"Status code is 201 when professor is created\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do novo professor quando é criado com sucesso\r",
+							"pm.test(\"Body should contain new professor data when created\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"name\": \"Maria Souza\",\r\n    \"gender\": 2,\r\n    \"civil_state\": 2,\r\n    \"race\": 2,\r\n    \"birthday\": \"1985-10-02\",\r\n    \"rg\": \"987654321\",\r\n    \"cpf\": \"12345678900\",\r\n    \"telephone\": \"(XX) XXXX-XXXX\",\r\n    \"state\": 2,\r\n    \"city\": \"Rio de Janeiro\",\r\n    \"address\": \"Avenida XYZ, 456\",\r\n    \"ong_id\": 1,\r\n    \"user_id\": 1\r\n  }\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/professors",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"professors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createWorkshop",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 201 Created quando o workshop é criado com sucesso\r",
+							"pm.test(\"Status code is 201 when workshop is created\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do novo workshop quando é criado com sucesso\r",
+							"pm.test(\"Body should contain new workshop data when created\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"local\": \"Centro Comunitário\",\r\n    \"name\": \"Artesanato\",\r\n    \"status\": true,\r\n    \"category\": 1,\r\n    \"ong_id\": 1\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/workshops",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"workshops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createOng",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 201 Created quando a ong é criada com sucesso\r",
+							"pm.test(\"Status code is 201 when ngo is created\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados a nova ong quando é criada com sucesso\r",
+							"pm.test(\"Body should contain new ngo data when created\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"ONG Educação para Todos\",\r\n    \"email\": \"contato@ongeducacao.com\",\r\n    \"cnpj\": \"98765432000199\",\r\n    \"telephone\": \"(XX) XXXX-XXXX\",\r\n    \"foundationData\": \"2010-04-25\",\r\n    \"address\": \"Avenida da Educação, 456\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/ongs",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ongs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createStudent",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 201 Created quando o estudante é criado com sucesso\r",
+							"pm.test(\"Status code is 201 when student is created\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do novo estudante quando é criado com sucesso\r",
+							"pm.test(\"Body should contain new student data when created\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ana Silva\",\r\n    \"email\": \"ana.silva@example.com\",\r\n    \"gender\": 2,\r\n    \"race\": 1,\r\n    \"birthday\": \"2005-03-10\",\r\n    \"rg\": \"1234567\",\r\n    \"cpf\": \"98765432100\",\r\n    \"telephone\": \"(XX) XXXX-XXXX\",\r\n    \"state\": 1,\r\n    \"city\": \"São Paulo\",\r\n    \"address\": \"Rua XYZ, 123\",\r\n    \"status\": 1,\r\n    \"civil_state\": 1,\r\n    \"ong_id\": 1,\r\n    \"responsable_id\": null\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/students",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createLeader",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 201 Created quando o líder é criado com sucesso\r",
+							"pm.test(\"Status code is 201 when leader is created\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do novo líder quando é criado com sucesso\r",
+							"pm.test(\"Body should contain new leader data when created\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"João da Silva\",\r\n    \"telephone\": \"(XX) XXXX-XXXX\",\r\n    \"ong_id\": 1,\r\n    \"user_id\": 1\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/leaders",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"leaders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateProfessor",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 201 Created quando o professor é editado com sucesso\r",
+							"pm.test(\"Status code is 200 when professor is edited\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do novo professor quando é editado com sucesso\r",
+							"pm.test(\"Body should contain updated professor data when edited\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"name\": \"Maria Souza\",\r\n    \"gender\": 2,\r\n    \"civil_state\": 2,\r\n    \"race\": 2,\r\n    \"birthday\": \"1985-10-02\",\r\n    \"rg\": \"987654321\",\r\n    \"cpf\": \"12345678900\",\r\n    \"telephone\": \"(XX) XXXX-XXXX\",\r\n    \"state\": 2,\r\n    \"city\": \"São Paulo\",\r\n    \"address\": \"Avenida XYZ, 456\",\r\n    \"ong_id\": 1,\r\n    \"user_id\": 1\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/professors/3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"professors",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateWorkshop",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK quando o workshop é atualizado com sucesso\r",
+							"pm.test(\"Status code is 200 when workshop is updated\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do workshop atualizado quando é atualizado com sucesso\r",
+							"pm.test(\"Body should contain updated workshop data when workshop is updated\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"local\": \"Centro Comunitário\",\r\n    \"name\": \"Artesanato\",\r\n    \"status\": true,\r\n    \"category\": 0,\r\n    \"ong_id\": 1\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/workshops/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"workshops",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateOng",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK quando a ong é atualizada com sucesso\r",
+							"pm.test(\"Status code is 200 when ngo is updated\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados da ong atualizada quando é atualizada com sucesso\r",
+							"pm.test(\"Body should contain updated ngo data when ngo is updated\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"ONG Amigos da Natureza\",\r\n    \"email\": \"contato@amigosdanatureza.com\",\r\n    \"cnpj\": \"98765432000199\",\r\n    \"telephone\": \"(XX) XXXX-XXXX\",\r\n    \"foundationData\": \"2005-05-05\",\r\n    \"address\": \"Avenida das Árvores, 456\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/ongs/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"ongs",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateStudent",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK quando o aluno é atualizado com sucesso\r",
+							"pm.test(\"Status code is 200 when student is updated\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do estudante atualizado quando é atualizado com sucesso\r",
+							"pm.test(\"Body should contain updated student data when student is updated\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ana Silva\",\r\n    \"email\": \"ana.silva@example.com\",\r\n    \"gender\": 2,\r\n    \"race\": 1,\r\n    \"birthday\": \"2005-03-10\",\r\n    \"rg\": \"1234567\",\r\n    \"cpf\": \"98765432100\",\r\n    \"telephone\": \"(XX) XXXX-XXXX\",\r\n    \"state\": 1,\r\n    \"city\": \"Rio de Janeiro\",\r\n    \"address\": \"Rua XYZ, 123\",\r\n    \"status\": 1,\r\n    \"civil_state\": 1,\r\n    \"ong_id\": 1,\r\n    \"responsable_id\": null\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/students/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateLeader",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Verifica se a resposta tem status 200 OK quando o líder é atualizado com sucesso\r",
+							"pm.test(\"Status code is 200 when leader is updated\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Verifica se o corpo da resposta contém dados do líder atualizado quando é atualizado com sucesso\r",
+							"pm.test(\"Body should contain updated leader data when is updated\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.not.be.empty;\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Celso da Silva\",\r\n    \"telephone\": \"(XX) XXXX-XXXX\",\r\n    \"ong_id\": 1,\r\n    \"user_id\": 1\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/leaders/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"leaders",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
